@@ -1,3 +1,5 @@
 package org.example;
 
-NumberFunc
+public interface AnyFunc<T> {
+    T func(T t);
+}

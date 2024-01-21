@@ -1,2 +1,6 @@
-package org.example;public class NumericTest {
+package org.example;
+
+public interface NumericTest {
+
+    boolean test(int n);
 }

@@ -1,2 +1,7 @@
-package org.example;public class MyContext {
+package org.example;
+
+interface MyContext {
+
+    double getVal();
+
 }
